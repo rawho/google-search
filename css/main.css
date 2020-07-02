@@ -1,0 +1,139 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul {
+  padding-right: 2%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: right;
+}
+
+nav ul li {
+  padding: 20px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #777777;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: #555555;
+}
+
+.container {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container h1 {
+  margin-top: 7%;
+  font-weight: bold;
+}
+
+.container #g-1, .container #o-1, .container #o-2, .container #g-2, .container #l, .container #e {
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container #g-1 {
+  color: #1d89d6;
+}
+
+.container #o-1 {
+  color: red;
+}
+
+.container #o-2 {
+  color: #daaf24;
+}
+
+.container #g-2 {
+  color: #1d89d6;
+}
+
+.container #l {
+  color: yellowgreen;
+}
+
+.container #e {
+  color: red;
+}
+
+.container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.container form .inp input {
+  padding: 15px;
+  width: 600px;
+  border-radius: 50px;
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-size: 18px;
+}
+
+.container form .inp input:hover {
+  -webkit-box-shadow: -5px 4px 5px rgba(0, 0, 0, 0.048), 5px -4px 5px rgba(0, 0, 0, 0.048), 5px -4px 5px rgba(0, 0, 0, 0.048);
+          box-shadow: -5px 4px 5px rgba(0, 0, 0, 0.048), 5px -4px 5px rgba(0, 0, 0, 0.048), 5px -4px 5px rgba(0, 0, 0, 0.048);
+}
+
+.container form .submit {
+  display: inline;
+  padding-right: 20px;
+}
+
+.container form .submit input {
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #5F6368;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+.container form .submit input:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=main.css.map */

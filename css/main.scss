@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+nav{
+    ul{
+        padding-right: 2%;
+        list-style: none;     
+        display: flex;
+        flex-direction: row;
+        float: right;
+        li{
+            padding: 20px;
+            font-size: 20px;
+            a{
+                text-decoration: none;
+                color: #777777;
+                font-family: Helvetica, sans-serif;
+                font-size: 20px;
+    
+            }
+            a:hover{
+                color: #555555;
+            }
+        }
+    }
+}
+.container{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h1{
+        margin-top: 7%;
+        font-weight: bold;
+    }
+    %h1{
+        font-size: 100px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    #g-1{
+        @extend %h1;
+        color: #1d89d6;
+
+    }
+    #o-1{
+        @extend %h1;
+        color: red;
+    }
+    #o-2{
+        @extend %h1;
+        color: rgb(218, 175, 36);
+    }
+    #g-2{
+        @extend %h1;
+        color: #1d89d6;
+    }
+    #l{
+        @extend %h1;
+        color: yellowgreen;
+    }
+    #e{
+        @extend %h1;
+        color: red;
+        
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        .inp{
+            input{
+                padding: 15px;
+                width: 600px;
+                border-radius: 50px;
+                border: .1px solid rgba(0,0,0,.2);
+                outline: none;
+                font-size: 18px;
+            }
+            input:hover{
+                box-shadow: 
+                -5px 4px 5px rgba(0, 0, 0, 0.048),
+                5px -4px 5px rgba(0, 0, 0, 0.048),
+                5px -4px 5px rgba(0, 0, 0, 0.048);
+
+            }
+        }
+        .submit{
+            display: inline;
+            padding-right: 20px;
+            input{
+                margin-top: 30px;
+                padding:10px;
+                font-size: 16px;
+                background-color: #f2f2f2;
+                border: 1px solid #f2f2f2;
+                color: #5F6368;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 5px;
+            }
+            input:hover{
+                border: 1px solid rgba(0,0,0,.3);
+            }
+        }
+    }
+}
