@@ -7,6 +7,39 @@ body{
     overflow: hidden;
 }
 nav{
+    h1{
+        %h1{
+            font-size: 40px;
+            font-family: 'Roboto', sans-serif;
+            
+        }
+        #g-1{
+            @extend %h1;
+            color: #1d89d6;
+    
+        }
+        #o-1{
+            @extend %h1;
+            color: red;
+        }
+        #o-2{
+            @extend %h1;
+            color: rgb(218, 175, 36);
+        }
+        #g-2{
+            @extend %h1;
+            color: #1d89d6;
+        }
+        #l{
+            @extend %h1;
+            color: yellowgreen;
+        }
+        #e{
+            @extend %h1;
+            color: red;
+            
+        }
+    }
     ul{
         padding-right: 2%;
         list-style: none;     

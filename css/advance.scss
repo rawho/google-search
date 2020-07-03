@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+}
+nav{
+    padding-left: 20px;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 10f 1fr;
+    .heading{
+        h1{
+            font-size: 2px;
+            font-weight: bold;
+            padding-left: 5px;
+            margin: 0;
+            grid-column: 1/2;
+            %h1{
+                font-size: 40px;
+                font-family: 'Roboto', sans-serif;
+                
+            }
+            #g-1{
+                @extend %h1;
+                color: #1d89d6;
+        
+            }
+            #o-1{
+                @extend %h1;
+                color: red;
+            }
+            #o-2{
+                @extend %h1;
+                color: rgb(218, 175, 36);
+            }
+            #g-2{
+                @extend %h1;
+                color: #1d89d6;
+            }
+            #l{
+                @extend %h1;
+                color: yellowgreen;
+            }
+            #e{
+                @extend %h1;
+                color: red;
+                
+            }
+        }
+    }
+    ul{
+        grid-column: 2/3;
+        justify-self: end;
+        margin: 0;
+        padding-right: 0;
+        list-style: none;     
+        display: flex;
+        flex-direction: row;
+        li{
+            padding: 20px;
+            font-size: 20px;
+            a{
+                text-decoration: none;
+                color: #777777;
+                font-family: Helvetica, sans-serif;
+                font-size: 20px;
+    
+            }
+            a:hover{
+                color: #555555;
+            }
+        }
+    }
+}
+h2{
+    margin-left: 10px;
+    font-family: arial, sans-serif;
+    padding: 25px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #d93025;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+
+}
+.container{
+    margin-right: 20%;
+    margin-left: 5%;
+    margin-top: 40px;
+    form{
+        display: grid;
+        grid-template-columns: 2fr 3fr 3fr;
+    
+        .box{
+            padding: 20px;
+            #btn{
+                margin-top: 40px;
+                float: right;
+                width: 160px;
+                background-color: #4d90fe;
+                color: whitesmoke;
+                border: none;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #btn:hover{
+                background-color: #3f90ca;
+            }
+            input{
+                width: 100%;
+                height: 30px;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                outline: none;
+                color: #444444;
+            }
+            input:focus{
+                border: 2px solid #4d90fe;
+            }
+            h3{
+                font-family: arial;
+                font-weight: normal;
+                font-size: 19px;
+            }
+            h4{
+                font-family: Arial, Helvetica, sans-serif;
+                color: #222222;
+                font-weight: normal;
+                font-size: 16px;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}
+@media(max-width: 1300px){
+    .container{
+        margin-right: 20%;
+        margin-left: 5%;
+        margin-top: 40px;
+        form{
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            .phone{
+                display: none;
+            }
+            .box{
+                padding: 20px;
+                #btn{
+                    margin-top: 40px;
+                    float: right;
+                    width: 160px;
+                    background-color: #4d90fe;
+                    color: whitesmoke;
+                    border: none;
+                    font-size: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                input{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    outline: none;
+                    color: #444444;
+                }
+                h3{
+                    font-family: arial;
+                    font-weight: normal;
+                    font-size: 19px;
+                }
+                h4{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #222222;
+                    font-weight: normal;
+                    font-size: 16px;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

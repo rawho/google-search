@@ -12,6 +12,35 @@ body {
   overflow: hidden;
 }
 
+nav h1 #g-1, nav h1 #o-1, nav h1 #o-2, nav h1 #g-2, nav h1 #l, nav h1 #e, nav h1 .container #g-1, .container nav h1 #g-1, nav h1 .container #o-1, .container nav h1 #o-1, nav h1 .container #o-2, .container nav h1 #o-2, nav h1 .container #g-2, .container nav h1 #g-2, nav h1 .container #l, .container nav h1 #l, nav h1 .container #e, .container nav h1 #e {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav h1 #g-1 {
+  color: #1d89d6;
+}
+
+nav h1 #o-1 {
+  color: red;
+}
+
+nav h1 #o-2 {
+  color: #daaf24;
+}
+
+nav h1 #g-2 {
+  color: #1d89d6;
+}
+
+nav h1 #l {
+  color: yellowgreen;
+}
+
+nav h1 #e {
+  color: red;
+}
+
 nav ul {
   padding-right: 2%;
   list-style: none;
