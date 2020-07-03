@@ -165,4 +165,10 @@ nav ul li a:hover {
 .container form .submit input:hover {
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 700px) {
+  .container form .inp input {
+    width: 500px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

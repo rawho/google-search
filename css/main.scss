@@ -145,3 +145,15 @@ nav{
         }
     }
 }
+
+@media (max-width: 700px){
+    .container{
+        form{
+            .inp{
+                input{
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
