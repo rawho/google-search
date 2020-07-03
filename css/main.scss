@@ -119,6 +119,28 @@ nav{
         align-items: center;
         margin-top: 30px;
         .inp{
+            position: relative;
+            display: flex;
+            .search{
+                position: absolute;
+                top: 18px;
+                left: 20px;
+                color: rgba(0, 0, 0, 0.5);
+            }
+            .voice{
+                position: absolute;
+                top: 18px;
+                left: 94%;
+                color: #1d89d6;
+            }
+            .cam{
+                position: absolute;
+                top: 18px;
+                left: 85%;
+                color: rgba(0, 0, 0, 0.5);
+            }
+                
+            
             input{
                 padding: 15px;
                 width: 600px;
@@ -126,8 +148,11 @@ nav{
                 border: .1px solid rgba(0,0,0,.2);
                 outline: none;
                 font-size: 18px;
+                padding-left: 10%;
+                padding-right: 10%;
             }
             input:hover{
+                
                 box-shadow: 
                 -5px 4px 5px rgba(0, 0, 0, 0.048),
                 5px -4px 5px rgba(0, 0, 0, 0.048),
@@ -160,7 +185,7 @@ nav{
         form{
             .inp{
                 input{
-                    width: 500px;
+                    width: 300px;
                 }
             }
         }

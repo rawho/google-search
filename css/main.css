@@ -144,6 +144,34 @@ nav ul li a:hover {
   margin-top: 30px;
 }
 
+.container form .inp {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container form .inp .search {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container form .inp .voice {
+  position: absolute;
+  top: 18px;
+  left: 94%;
+  color: #1d89d6;
+}
+
+.container form .inp .cam {
+  position: absolute;
+  top: 18px;
+  left: 85%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .container form .inp input {
   padding: 15px;
   width: 600px;
@@ -151,6 +179,8 @@ nav ul li a:hover {
   border: 0.1px solid rgba(0, 0, 0, 0.2);
   outline: none;
   font-size: 18px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .container form .inp input:hover {
@@ -180,7 +210,7 @@ nav ul li a:hover {
 
 @media (max-width: 700px) {
   .container form .inp input {
-    width: 500px;
+    width: 300px;
   }
 }
 /*# sourceMappingURL=main.css.map */
