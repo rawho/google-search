@@ -118,6 +118,18 @@ nav ul li a:hover {
   color: red;
 }
 
+.container #img {
+  float: right;
+  padding: 0px;
+  margin: 0px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #1d89d6;
+  font-weight: lighter;
+}
+
 .container form {
   display: -webkit-box;
   display: -ms-flexbox;
